@@ -1,0 +1,93 @@
+:root {
+  --darker-pink: #f0a8bb;
+  --lighter-pink: #f9dde0;
+  --blue: #92b2ba;
+  --background: whitesmoke;
+  --tag-and-footer: #eeeeee;
+  --tag-text: #777777;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+}
+
+nav {
+  background-color: var(--blue);
+  color: white;
+  margin: 3% 7% 1% 7%;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  margin: 1% 7% 1% 7%;
+  /* background-image: url(https://i.imgur.com/U8tiT5X.png); */
+}
+.headerImg {
+  max-width: 100%;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.flowerImg {
+  max-width: 100%;
+}
+
+main {
+  margin: 1% 7% 1% 7%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: fit-content;
+}
+
+footer {
+  background-color: var(--tag-and-footer);
+  margin: 1% 7% 3% 7%;
+  padding: 2% 10% 2% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerImg {
+  max-width: 50%;
+}
+
+.flowerName {
+  color: var(--blue);
+}
+
+.price {
+  background-color: var(--darker-pink);
+  color: white;
+  padding: 2%;
+  font-size: smaller;
+  
+}
+.flowerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.tag {
+  background-color: var(--tag-and-footer);
+  color: var(--tag-text);
+  padding: 2%;
+  margin: 1%;
+  font-size: x-small;
+}
+
+.card {
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
